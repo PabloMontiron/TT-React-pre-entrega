@@ -1,0 +1,21 @@
+:root {
+--main-clr: #5e42c21c;
+}
+
+.main-section {
+    /*background-color: var(--main-clr);*/
+    margin-top: 1rem;
+    border-radius: .3rem;
+
+}   
+
+.main__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 0 1rem;   
+}
+
+.h1-titulo {
+    font-size: 2rem;
+    color: white;
+}

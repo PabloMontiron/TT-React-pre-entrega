@@ -1,0 +1,24 @@
+
+.nav {
+    padding: 1rem 0;
+    background: rgba(82, 82, 82, 0.144);
+    border-radius: .3rem;
+}
+
+.nav__ul {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: .5rem 0;
+    align-items: center;   
+}
+
+.nav__ul li {
+    list-style: none;
+}
+
+.nav__ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+}
