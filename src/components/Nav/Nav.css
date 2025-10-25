@@ -22,3 +22,8 @@
     font-size: 18px;
     text-decoration: none;
 }
+
+.nav__ul li .span-contador {
+    color: #fff;
+    margin-left: 1rem;
+}
