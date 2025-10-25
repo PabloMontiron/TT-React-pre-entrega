@@ -1,5 +1,5 @@
 import { Item } from "../Item/Item";
-import { useCartContext } from "../../context/cartContext/useCartContext";
+import { useCartContext } from "../../context/CartContext/useCartContext";
 
 export const ItemDetail = ({detalle}) => {
     const { agregarProducto } = useCartContext();
