@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useCartContext } from "../../context/CartContext/useCartContext";
-import "./nav.css"
+import './Nav.css';
 
 export const Nav = () => {
 
