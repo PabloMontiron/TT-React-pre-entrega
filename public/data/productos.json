@@ -3,8 +3,8 @@
         "id": "1",
         "nombre": "Maceta 1",
         "precio": 30000,
-        "categoria": "Categoria-1",
-        "descripcion": "Descripcion 1",
+        "categoria": "minimalista",
+        "descripcion": "minimalista",
         "imagenUrl": "/imagenes/maceta-2.jpg"
     },
 
@@ -12,8 +12,8 @@
         "id": "2",
         "nombre": "Maceta 2",
         "precio": 35000,
-        "categoria": "Categoria-2",
-        "descripcion": "Descripcion 2",
+        "categoria": "rustica",
+        "descripcion": "rustica",
         "imagenUrl": "/imagenes/maceta-8.jpg"
     },
     
@@ -21,8 +21,8 @@
         "id": "3",
         "nombre": "Maceta 3",
         "precio": 40000,
-        "categoria": "Categoria-3",
-        "descripcion": "Descripcion 3",
+        "categoria": "minimalista",
+        "descripcion": "minimalista",
         "imagenUrl": "/imagenes/maceta-10.jpg"
     },
 
@@ -30,8 +30,8 @@
         "id": "4",
         "nombre": "Maceta 4",
         "precio": 45000,
-        "categoria": "Categoria-4",
-        "descripcion":"Descripcion 4",
+        "categoria": "rustica",
+        "descripcion":"rustica",
         "imagenUrl": "/imagenes/maceta-13.jpg"
     }
 ]

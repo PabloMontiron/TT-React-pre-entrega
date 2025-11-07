@@ -2,6 +2,15 @@ import { Link } from "react-router-dom"
 import { useCartContext } from "../../context/CartContext/useCartContext";
 import './Nav.css';
 
+{/*
+    --No olvidar importar componente Nav.
+    --Ver txt
+
+    <header>
+        <Link to="/"> LOGO </Link>
+        <Nav /> -- componente Nav
+    </header> */}
+
 export const Nav = () => {
 
     const {getTotalProductos} = useCartContext();
