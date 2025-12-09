@@ -1,30 +1,16 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom";
 import { ItemDetail } from "../ItemDetail/ItemDetail";
+import { getProductosById } from "../../services/productos";
 
 export const ItemDetailContainer = () => {
     const [detalle,setDetalle] = useState({});
     const {id} = useParams();
 
     useEffect(() => {
-        fetch("/data/productos.json")
-        .then((res) => {
-            if(!res.ok) {
-                throw new Error("No se encontro el producto");
-            }
-
-            return res.json();
-        })
-        .then((data) => {
-            const prodEncontrado = data.find(p => p.id === id);
-
-            if(prodEncontrado) {
-                setDetalle(prodEncontrado);
-            } else {
-                throw new Error("Error al cargar el producto");
-            }
-        })
-        .catch((err) => {console.log(err)});
+       getProductosById(id)
+        .then((data) => setDetalle(data))
+        .catch((err) => console.log(err));
     }, [id]);
 
     return (

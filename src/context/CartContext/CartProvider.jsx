@@ -18,7 +18,7 @@ export const CartProvider = ({children}) => {
             const actualizarCarrito = cart.map(p => {
                 if (p.id === producto.id) {
                     // cuido mutacion a nivel de objeto - sumo cant + cant act
-                    // sacar console luego--!!
+                    // sacar console luego. no se inicializa cantidad en 0 0 cant act al ppio--!!
                     console.log({...p, cantidad: p.cantidad + producto.cantidad});
 
                     return {...p, cantidad: p.cantidad + producto.cantidad};
